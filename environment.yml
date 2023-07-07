@@ -1,0 +1,16 @@
+name: semantic-kernel
+channels:
+  - https://conda.anaconda.org/menpo
+  - conda-forge
+dependencies:
+  - python=3.*
+  - black
+  - poetry
+  - pip:
+      # for VS code
+      - pylint
+      - autopep8
+      # misc
+      - python-dotenv-vault
+      # Semantic Kernel
+      - semantic-kernel
